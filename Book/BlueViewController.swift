@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  BlueViewController.swift
 //  Book
 //
 //  Created by ktds 10 on 13/05/2019.
@@ -8,34 +8,27 @@
 
 import UIKit
 
-protocol SecondViewControllerDelegate {
-    var newValue:String { get set }
-    func delegaeMethod(newValue:String)
-}
-
-class SecondViewController: UIViewController {
-    
-    var newValue:String?
-    
-    var delegate:SecondViewControllerDelegate?
+class BlueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        var test = self.newValue
 
         // Do any additional setup after loading the view.
+        
+        let notificationCenter = NotificationCenter.default
+        
+        notificationCenter.addObserver(self, selector: #selector(changeBackcolor(_:)), name: NSNotification.Name("CHANGE_BACK_COLOR"), object: nil)
+        
+    }
+    
+    @objc func changeBackcolor(_ notification:Notification){
+        //self.view.backgroundColor = UIColor.black
+        if let color = notification.userInfo?["color"] as? UIColor {
+            self.view.backgroundColor = color
+        }
     }
     
 
-    @IBAction func close(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-        
-        delegate?.delegaeMethod(newValue: "First")
-        
-        //delegate?.firstValue = "Hello, First!!"
-        
-    }
     /*
     // MARK: - Navigation
 

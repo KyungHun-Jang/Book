@@ -15,6 +15,10 @@
 		E834ED1F2288FAFF00423372 /* BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834ED1E2288FAFF00423372 /* BookUITests.swift */; };
 		E88DD151228904AE00AB32E6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88DD150228904AE00AB32E6 /* FirstViewController.swift */; };
 		E88DD153228906F800AB32E6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88DD152228906F800AB32E6 /* SecondViewController.swift */; };
+		E88DD15522892D5500AB32E6 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88DD15422892D5500AB32E6 /* OrangeViewController.swift */; };
+		E88DD1572289349500AB32E6 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88DD1562289349500AB32E6 /* BlueViewController.swift */; };
+		E88DD159228934AE00AB32E6 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88DD158228934AE00AB32E6 /* GreenViewController.swift */; };
+		E88DD15B228934BE00AB32E6 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88DD15A228934BE00AB32E6 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		E834ED202288FAFF00423372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E88DD150228904AE00AB32E6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E88DD152228906F800AB32E6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E88DD15422892D5500AB32E6 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		E88DD1562289349500AB32E6 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E88DD158228934AE00AB32E6 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		E88DD15A228934BE00AB32E6 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				E834ED0A2288FAFF00423372 /* Info.plist */,
 				E88DD150228904AE00AB32E6 /* FirstViewController.swift */,
 				E88DD152228906F800AB32E6 /* SecondViewController.swift */,
+				E88DD15422892D5500AB32E6 /* OrangeViewController.swift */,
+				E88DD1562289349500AB32E6 /* BlueViewController.swift */,
+				E88DD158228934AE00AB32E6 /* GreenViewController.swift */,
+				E88DD15A228934BE00AB32E6 /* RedViewController.swift */,
 			);
 			path = Book;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88DD15B228934BE00AB32E6 /* RedViewController.swift in Sources */,
+				E88DD159228934AE00AB32E6 /* GreenViewController.swift in Sources */,
+				E88DD15522892D5500AB32E6 /* OrangeViewController.swift in Sources */,
 				E88DD153228906F800AB32E6 /* SecondViewController.swift in Sources */,
 				E88DD151228904AE00AB32E6 /* FirstViewController.swift in Sources */,
+				E88DD1572289349500AB32E6 /* BlueViewController.swift in Sources */,
 				E834ECFF2288FAFD00423372 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
